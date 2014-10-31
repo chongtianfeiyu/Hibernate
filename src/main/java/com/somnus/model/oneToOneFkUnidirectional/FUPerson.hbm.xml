@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.somnus.model.oneToOneFkUnidirectional.FUPerson" table="t_person_fk_un">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="name"/><!-- unique【独特的，稀罕的；唯一的，独一无二的】 -->
+		<many-to-one name="idCard" column="cardid" unique="true"/>
+	</class>
+</hibernate-mapping>

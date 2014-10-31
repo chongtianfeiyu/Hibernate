@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.somnus.model.manyToManyBidirectional.BRole" table="t_role_bi">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="name"/>
+		<set name="users" table="t_user_role_bi" order-by="userid">
+			<key column="roleid"/>
+			<many-to-many class="com.somnus.model.manyToManyBidirectional.BUser" column="userid"/>
+		</set>
+	</class>
+</hibernate-mapping>
