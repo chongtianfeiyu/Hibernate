@@ -25,7 +25,12 @@
 		<version>4.11</version>
 		<scope>test</scope>
 	</dependency>
-	
+	<!-- 加入mysql驱动依赖包 -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.27</version>
+	</dependency>
 	<!-- 加入ehcache -->
 	<dependency>
 		<groupId>net.sf.ehcache</groupId>

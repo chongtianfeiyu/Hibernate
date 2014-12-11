@@ -103,7 +103,7 @@ public class ManyToOneTest
 
 		try
 		{
-			Order order = (Order)session.load(Order.class, 1);
+			Order order = (Order)session.load(Order.class, 3);
 			System.out.println("订单数量"+order.getOrderNumber());
 			System.out.println("客户姓名"+order.getCustomer().getName());
 //			Customer customer = (Customer) session.get(Customer.class,
