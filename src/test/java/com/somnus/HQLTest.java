@@ -39,7 +39,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 		// ///////////////////////如果在Student中配置了@Cache就会使用二级缓存///////////////////////////////////////
 		Session session2 = HibernateUtil.openSession();
@@ -94,7 +94,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -123,7 +123,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -152,7 +152,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -181,7 +181,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -219,7 +219,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -250,7 +250,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -281,7 +281,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -310,7 +310,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -340,7 +340,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -372,7 +372,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -402,7 +402,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -428,7 +428,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -454,7 +454,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -485,7 +485,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -514,7 +514,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -543,7 +543,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -572,7 +572,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -601,7 +601,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -630,7 +630,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -663,7 +663,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -693,7 +693,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -723,7 +723,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -752,7 +752,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -781,7 +781,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -810,7 +810,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -839,7 +839,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -873,7 +873,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -908,7 +908,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 
@@ -938,7 +938,7 @@ public class HQLTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

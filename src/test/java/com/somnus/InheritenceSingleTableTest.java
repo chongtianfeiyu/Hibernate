@@ -40,7 +40,7 @@ public class InheritenceSingleTableTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -79,7 +79,7 @@ public class InheritenceSingleTableTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

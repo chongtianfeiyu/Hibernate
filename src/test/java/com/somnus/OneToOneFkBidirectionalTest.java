@@ -42,7 +42,7 @@ public class OneToOneFkBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -76,7 +76,7 @@ public class OneToOneFkBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -102,7 +102,7 @@ public class OneToOneFkBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -128,7 +128,7 @@ public class OneToOneFkBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

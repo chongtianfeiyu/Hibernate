@@ -42,7 +42,7 @@ public class OneToOnePkUnidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -68,7 +68,7 @@ public class OneToOnePkUnidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

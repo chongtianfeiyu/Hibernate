@@ -61,7 +61,7 @@ public class OneToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -104,7 +104,7 @@ public class OneToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -149,7 +149,7 @@ public class OneToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -179,7 +179,7 @@ public class OneToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -206,7 +206,7 @@ public class OneToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

@@ -44,7 +44,7 @@ public class InheritenceJoinedTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -86,7 +86,7 @@ public class InheritenceJoinedTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

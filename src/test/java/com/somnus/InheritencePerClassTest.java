@@ -45,7 +45,7 @@ public class InheritencePerClassTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -91,7 +91,7 @@ public class InheritencePerClassTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

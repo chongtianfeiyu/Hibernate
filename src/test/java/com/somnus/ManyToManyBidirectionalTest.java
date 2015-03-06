@@ -70,7 +70,7 @@ public class ManyToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -100,7 +100,7 @@ public class ManyToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -130,7 +130,7 @@ public class ManyToManyBidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

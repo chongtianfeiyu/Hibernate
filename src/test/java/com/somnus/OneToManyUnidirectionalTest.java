@@ -51,7 +51,7 @@ public class OneToManyUnidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -81,7 +81,7 @@ public class OneToManyUnidirectionalTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 }

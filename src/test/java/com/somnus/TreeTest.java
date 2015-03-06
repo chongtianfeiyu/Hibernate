@@ -69,7 +69,7 @@ public class TreeTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 	}
 	@Test
@@ -99,7 +99,7 @@ public class TreeTest
 		}
 		finally
 		{
-			session.close();
+			HibernateUtil.close();
 		}
 		////////////////////////////////////////////////////////////////
 		Session session2 = HibernateUtil.openSession();
