@@ -14,10 +14,15 @@
 		<property name="format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		
-		<!-- 开启二级缓存 -->
+		<!-- 开启二级缓存-->
 		<property name="hibernate.cache.use_second_level_cache">true</property>
-		<!-- 指定缓存产品提供商 -->
-		<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+		<!-- 指定缓存产品提供商 @see http://blog.csdn.net/chaoowang/article/details/21236501 -->
+		<!-- <property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property> -->
+		<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property> 
+		<!-- load  iterator默认使用二级缓存 -->
+		<!-- 如果要query使用二级缓存，需打开查询缓存 -->
+		<!-- list默认往二级缓存加数据，但是查询的时候不使用-->
+		<property name="cache.use_query_cache">true</property> 
 		
 		<!--HQL-->
 		<mapping resource="com/somnus/model/hql/Student.hbm.xml"/>
